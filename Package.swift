@@ -6,8 +6,7 @@ import PackageDescription
 let package = Package(
     name: "NVActivityIndicatorView",
     platforms: [
-        .iOS(.v9),
-        .tvOS(.v9)
+        .iOS(.v9)
     ],
     products: [
         .library(name: "NVActivityIndicatorView", targets: ["NVActivityIndicatorView"]),
